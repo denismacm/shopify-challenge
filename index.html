@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Inventory Tracker</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inventory Tracker with Basic CRUD Functionality</h1>
+        <form id="js-submit">
+            <label for="name">Name: </label>
+            <input type="text" name="name" class="js-name" placeholder="Order name">
+            <label for="quantity">Quantity: </label>
+            <input type="number" name="quantity" class="js-quantity" value="1" min="1">
+            <button type="submit">Submit order</button>
+        </form>
+        <ul class="items-list js-items">
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+button {
+  padding: 5px;
+  width: 150px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 300px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  width: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.items-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.items-list > li {
+  margin-bottom: 15px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.item {
+  align-items: left;
+  text-align: left;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.item-comment {
+  align-items: left;
+  text-align: left;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: grey;
+}
+
+.item_checked {
+  text-decoration: line-through;
+}
